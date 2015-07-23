@@ -33,6 +33,5 @@ def InsertSort(array, isreversed = False):
         for j in range(i, pos, -1):
             UnSortArray[j] = UnSortArray[ j - 1 ]
         UnSortArray[pos] = UnSortArray[0]       #完成数据插入
-        print UnSortArray
 
     return UnSortArray[:0:-1] if isreversed else UnSortArray[1:]
